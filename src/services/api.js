@@ -1,8 +1,8 @@
 import axios from "axios";
 
 // Use the correct environment variable with the `VITE_` prefix
-const API_BASE_URL = import.meta.env.VITE_PUBLIC_BASE_URL;
-const IMAGE_PATH = import.meta.env.VITE_PUBLIC_IMAGE_PATH;
+const API_BASE_URL = "https://envocare.demovoting.com/api";
+const IMAGE_PATH = "https://envocare.demovoting.com/api/storage/public/app";
 
 console.log("API Base URL:", API_BASE_URL);
 console.log("Image Path:", IMAGE_PATH);
